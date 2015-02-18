@@ -109,6 +109,25 @@ body{
 	top: 20vh;
 	left: 60vw;
 	width:35vw;
+}
+
+#banner img.wegetImg1{
+	position: absolute;
+	top: 15vh;
+	left: 75vw;
+	width:22vw;
+}
+#banner img.wegetImg2{
+	position: absolute;
+	top: 40vh;
+	left: 60vw;
+	width:20vw;
+}              
+#banner img.wegetImg3{
+	position: absolute;
+	top: 50vh;
+	left: 80vw;
+	width:20vw;
 }  
 
 #banner img.displayImg1{
@@ -214,24 +233,33 @@ body{
     
 
  
-#banner img.manageImg1{
+#banner img.servicesImg1{
 	position: absolute;
 	top: 55vh;
-	left: 10vw;
-	width:20vw
+	left: 8vw;
+	width:15vw;
 }
-#banner img.manageImg2{
+
+#banner img.servicesImg2{
 	position: absolute;
 	top: 55vh;
-	left: 40vw;
-	width:20vw
-}              
-#banner img.manageImg3{
+	left: 31vw;
+	width:15vw;
+}  
+
+#banner img.servicesImg3{
 	position: absolute;
 	top: 55vh;
-	left: 70vw;
-	width:20vw
-}   
+	left: 54vw;
+	width:15vw;
+} 
+
+#banner img.servicesImg4{
+	position: absolute;
+	top: 55vh;
+	left: 77vw;
+	width:15vw;
+}  
 
 #banner .oneByOne_item span.wp1{
 	clear: left;

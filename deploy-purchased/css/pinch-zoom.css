@@ -1,4 +1,17 @@
+body,
+html{
+    text-align: center;
+    color: white;
+}
 
+
+html, body{
+    background-color: #333;
+    font-family: Arial;
+	margin: 0;
+	width:100vw;
+	height:100vh;
+}
 
 
 
@@ -6,7 +19,7 @@ div.image1{
 	top:20vh;
 	left:5vw;
 	height:500px;
-    max-width: 500px;
+    width: 500px;
     position: relative;
 	z-index: 9999;
 }
@@ -15,7 +28,7 @@ div.image2{
 	position: relative;
 	top:-22.5vh;
 	left:50vw;
-    max-width: 40vw;
+    max-width: 500px;
 }
 
 

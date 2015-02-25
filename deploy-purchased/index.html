@@ -3,6 +3,25 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>jQuery OneByOne Slider Plugin</title>
+	
+	<!-- pinchzoom requires: jquery and underscore -->
+	
+	 
+    <link rel="stylesheet" href="css/pinch-zoom.css" />
+    
+
+    
+    <script type="text/javascript" src="../deploy-purchased/js/underscore-min.js"></script>
+    <script type="text/javascript" src="../deploy-purchased/js/pinchzoom.js"></script>
+	
+    <script type="text/javascript">
+        $(function () {
+            $('div.pinch-zoom').each(function () {
+                new RTP.PinchZoom($(this), {});
+            });
+        })
+    </script>
+
   	<script src="js/jquery.1.9.1.min.js"></script>
     <script src="js/modernizr.custom.49511.js"></script>
     <script src="js/jquery.onebyone.js"></script>
@@ -26,30 +45,7 @@
     <link href="css/example1.css" rel="stylesheet" type="text/css">
 	
 	
-	<!-- pinchzoom requires: jquery and underscore -->
 	
-	 <style type="text/css">
-        div.pinch-zoom,
-        div.pinch-zoom img{
-            width: 100%;
-            -webkit-user-drag: none;
-        }
-
-    </style>
-    <link rel="stylesheet" href="css/pinch-zoom.css" />
-    
-
-    
-    <script type="text/javascript" src="../deploy-purchased/js/underscore-min.js"></script>
-    <script type="text/javascript" src="../deploy-purchased/js/pinchzoom.js"></script>
-    <!--<script type="text/javascript">
-        $(function () {
-            $('div.pinch-zoom').each(function () {
-                new RTP.PinchZoom($(this), {});
-            });
-        })
-    </script>-->
-
 </head>
 
 <body>
@@ -80,15 +76,42 @@
 		
 <!--------------SERVICES-------------->
 		<div class="oneByOne_item">
-			<h1>Page 2</h1>
+			<div class="image1">
+		<h1>Universities</h1>
+		<p>Univeristy of Alabama</p>
+        <div class="pinch-zoom">
+            <img src="images/alabama.jpg"/>
+		</div>
+		
+	</div>
+	
+	<div class="image2">
+		<h1>Restaurants</h1>
 		<p>Furs Buffet</p>
-			
+        <div class="pinch-zoom"> 
+            <img src="images/alabama2.jpg"/>
+		</div>
+	</div>
 			
 		</div>
 <!--------------STORE-------------->
 		<div id="green"  class="oneByOne_item">
-			<h1>Page 3</h1>
+			<div class="image1">
+		<h1>Universities</h1>
+		<p>Univeristy of Alabama</p>
+        <div class="pinch-zoom">
+            <img src="images/alabama.jpg"/>
+		</div>
+		
+	</div>
+	
+	<div class="image2">
+		<h1>Restaurants</h1>
 		<p>Furs Buffet</p>
+        <div class="pinch-zoom"> 
+            <img src="images/alabama2.jpg"/>
+		</div>
+	</div>
 		</div>
 		</div>
 

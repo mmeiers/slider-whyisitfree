@@ -3,6 +3,31 @@
 <html>
 <head>
     <title>Pinchzoom.js Demo</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>jQuery OneByOne Slider Plugin</title>
+  	<script src="js/jquery.1.9.1.min.js"></script>
+    <script src="js/modernizr.custom.49511.js"></script>
+    <script src="js/jquery.onebyone.js"></script>
+	<script src="js/jquery.touchwipe.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+	 $(document).ready(function() {
+        $('#banner').oneByOne({
+			className: 'oneByOne1',
+			easeType: 'random',
+			showArrow: true,
+			slideShow: true
+		});
+
+
+	 });
+
+
+    </script>
+    <link href="css/jquery.onebyone.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="css/example1.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,500,700,200,100' rel='stylesheet' type='text/css'>
 
     <style type="text/css">
         div.pinch-zoom,
@@ -12,11 +37,12 @@
         }
 
     </style>
+	<!-- pinchzoom requires: jquery and underscore -->
     <link rel="stylesheet" href="css/pinch-zoom.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
-    <!-- pinchzoom requires: jquery and underscore -->
+    
     <script type="text/javascript" src="../deploy-purchased/js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="../deploy-purchased/js/underscore.js"></script>
     <script type="text/javascript" src="../deploy-purchased/js/pinchzoom.js"></script>
@@ -29,6 +55,7 @@
     </script>
 </head>
 <body>
+<!--------------OUT OF THE WAY-------------->
 
     <div class="image1">
 		<h1>Universities</h1>
@@ -46,6 +73,8 @@
             <img src="images/alabama2.jpg"/>
 		</div>
 	</div>
+			
+	
 	
 	
     

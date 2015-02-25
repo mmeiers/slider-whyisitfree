@@ -3,29 +3,22 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>jQuery OneByOne Slider Plugin</title>
-	
-	<!-- pinchzoom requires: jquery and underscore -->
-	
-	 
-    <link rel="stylesheet" href="css/pinch-zoom.css" />
-    
-
-    
-    <script type="text/javascript" src="../deploy-purchased/js/underscore-min.js"></script>
-    <script type="text/javascript" src="../deploy-purchased/js/pinchzoom.js"></script>
-	
-    <script type="text/javascript">
-        $(function () {
-            $('div.pinch-zoom').each(function () {
-                new RTP.PinchZoom($(this), {});
-            });
-        })
-    </script>
-
   	<script src="js/jquery.1.9.1.min.js"></script>
     <script src="js/modernizr.custom.49511.js"></script>
     <script src="js/jquery.onebyone.js"></script>
 	<script src="js/jquery.touchwipe.min.js"></script>
+	<link rel="stylesheet" href="css/pinch-zoom.css" />
+    <style type="text/css">
+        div.pinch-zoom,
+        div.pinch-zoom img{
+            width: 100%;
+            -webkit-user-drag: none;
+        }
+
+    </style>
+	
+	 <script type="text/javascript" src="../deploy-purchased/js/underscore-min.js"></script>
+    <script type="text/javascript" src="../deploy-purchased/js/pinchzoom.js"></script>
     <script type="text/javascript" charset="utf-8">
 	 $(document).ready(function() {
         $('#banner').oneByOne({
@@ -45,7 +38,22 @@
     <link href="css/example1.css" rel="stylesheet" type="text/css">
 	
 	
+	<!-- pinchzoom requires: jquery and underscore -->
 	
+	 
+    
+
+    
+   
+	
+    <script type="text/javascript">
+        $(function () {
+            $('div.pinch-zoom').each(function () {
+                new RTP.PinchZoom($(this), {});
+            });
+        })
+    </script>
+
 </head>
 
 <body>
@@ -59,6 +67,8 @@
 		<h1>Universities</h1>
 		<p>Univeristy of Alabama</p>
         <div class="pinch-zoom">
+					<p>Univeristy of Alabama</p>
+
             <img src="images/alabama.jpg"/>
 		</div>
 		

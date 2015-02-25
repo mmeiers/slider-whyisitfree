@@ -451,7 +451,7 @@
                 this.container.append(this.el);
 
                 this.container.css({
-                    
+                  
                     'position': 'relative'
                 });
 

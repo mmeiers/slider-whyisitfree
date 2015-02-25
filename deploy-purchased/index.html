@@ -8,14 +8,7 @@
     <script src="js/jquery.onebyone.js"></script>
 	<script src="js/jquery.touchwipe.min.js"></script>
 	<link rel="stylesheet" href="css/pinch-zoom.css" />
-    <style type="text/css">
-        div.pinch-zoom,
-        div.pinch-zoom img{
-            width: 100%;
-            -webkit-user-drag: none;
-        }
-
-    </style>
+    
 	
 	 <script type="text/javascript" src="../deploy-purchased/js/underscore-min.js"></script>
     <script type="text/javascript" src="../deploy-purchased/js/pinchzoom.js"></script>
@@ -67,8 +60,6 @@
 		<h1>Universities</h1>
 		<p>Univeristy of Alabama</p>
         <div class="pinch-zoom">
-					<p>Univeristy of Alabama</p>
-
             <img src="images/alabama.jpg"/>
 		</div>
 		
@@ -126,6 +117,18 @@
 		</div>
 
         </div>
-
+<style type="text/css">
+        div.pinch-zoom,
+        div.pinch-zoom img{
+            width: 100%;
+            -webkit-user-drag: none;
+			
+			
+        }
+.pinch-zoom-container {
+	overflow: hidden;
+	
+}
+    </style>
 </body>
 </html>

@@ -16,19 +16,19 @@ html, body{
 
 
 div.image1{
-	top:20vh;
+	top:10vh;
 	left:5vw;
-	height:500px;
-    width: 500px;
-    position: relative;
+    width: 35vw;
+    position: absolute;
 	z-index: 9999;
+	background-color: red;
 }
 
 div.image2{
-	position: relative;
-	top:-22.5vh;
+	position: absolute;
+	top:10vh;
 	left:50vw;
-    max-width: 500px;
+    width: 35vw;
 }
 
 
@@ -36,5 +36,11 @@ div.pinch-zoom {
     position: relative;
 }
 
-
+.container {
+	top:10vh;
+	left:5vw;
+    width: 35vw;
+    position: absolute;
+	z-index: 9999;
+}
 	

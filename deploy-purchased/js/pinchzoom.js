@@ -452,7 +452,8 @@
 
                 this.container.css({
                   
-                    'position': 'relative'
+                    'position': 'relative',
+					/*'overflow': 'hidden'*/
                 });
 
                 this.el.css({

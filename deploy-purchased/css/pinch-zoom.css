@@ -40,3 +40,7 @@ div.pinch-zoom {
 -webkit-clip-path: circle(100px at center);
 }
 	
+
+div.pinch-zoom-container {
+height:306px !important;
+}

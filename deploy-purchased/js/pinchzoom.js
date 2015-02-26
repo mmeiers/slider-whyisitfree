@@ -453,7 +453,7 @@
                 this.container.css({
                   
                     'position': 'relative',
-					/*'overflow': 'hidden'*/
+					'overflow': 'hidden'
                 });
 
                 this.el.css({
